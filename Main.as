@@ -112,7 +112,7 @@
 			bgImgLoader.source = atlas.getTexture("Sprite_2");
 		}
 		
-		protect function stageResized(e:Event):void
+		protected function stageResized (event:Event):void
 		{
 			this.height = this.stage.stageHeight;
 			this.width = this.stage.stageWidth;
