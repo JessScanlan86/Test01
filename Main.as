@@ -80,7 +80,7 @@
 			
 			this.contentPanel = new Panel();
 			
-			var contentPanelLayout:AnchorLayoutData = new AnchorLayoutData();
+			var contentPanelLayoutData:AnchorLayoutData = new AnchorLayoutData();
 			contentPanelLayoutData.top = 10;
 			contentPanelLayoutData.bottom = 10;
 			contentPanelLayoutData.left = 10;
@@ -88,7 +88,7 @@
 			
 			contentPanelLayoutData.bottomAnchorDisplayObject = this.buttonPanel;
 			
-			contentPanel.layoutData = contentPanelLayoutDtat;
+			contentPanel.layoutData = contentPanelLayoutData;
 			
 			this.addChild(contentPanel);
 			
